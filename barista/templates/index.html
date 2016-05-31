@@ -1,0 +1,25 @@
+<form action="coffee" method="get">
+
+  I like to order
+
+  <input id="amount" name="amount" type="number" value=1 style="width: 3.5em" >
+
+  <select id="coffee" name="coffee">
+    {% for coffee in coffees %}
+      <option value="{{loop.index-1}}">{{coffee.name}}</option>
+    {% endfor %}
+  </select>
+
+  made with a
+
+  <select id="machine" name="machine">
+    {% for machine in machines %}
+      <option value="{{loop.index-1}}">{{machine.name}}</option>
+    {% endfor %}
+  </select>
+
+  <br>
+
+  <input type="submit" value="order">
+
+</form>
