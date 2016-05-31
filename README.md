@@ -12,7 +12,7 @@ You can order:
 |Latte Macchiato|2.20€
 |Moccaccino|2.30€
 
-** prices change according to their preparation process*
+* prices change according to their preparation process
 
 # Getting Started
 This is an example flask webserver with docker and python3.
@@ -21,7 +21,7 @@ To start the service make sure to have docker installed.
 
 **build** a docker image:
 
-    git clone https://github.com/swiesend/barista .
+    git clone https://github.com/swiesend/barista barista
     cd barista
     docker build -t barista .
 
