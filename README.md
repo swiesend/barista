@@ -17,17 +17,25 @@ You can order:
 # Getting Started
 This is an example flask webserver with docker and python3.
 
-To start the service make sure to have docker installed.
 
-**build** a docker image:
+
+**install** docker, if you don't have it yet:
+
+    https://docs.docker.com/linux/step_one/
+
+**build** a docker image, which will contain the whole webserver:
 
     git clone https://github.com/swiesend/barista barista
     cd barista
     docker build -t barista .
 
-**run** it in a container on port 5000:
+**run** it in a docker container on port 5000:
 
     docker run -d -p 5000:5000 barista
+
+**use** use the app in your favorite browser:
+
+    http://localhost:5000
 
 # Configuration
 
