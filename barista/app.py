@@ -14,8 +14,8 @@ def coffee():
     machine = int(request.args.get('machine'))
 
     order = make_coffee(amount, COFFEES[coffee], MACHINES[machine])
-    
+
     return render_template('coffee.html', order=order)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", debug=True)
+    app.run(host="0.0.0.0", debug=False)
