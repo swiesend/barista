@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Barista - {% block title %}{% endblock %}</title>
+    {% block link %}
+    <link rel="stylesheet" href="static/css/style.css" />
+    {% endblock %}
+</head>
+<body>
+    <header>{% block header %}<br><h1>Barista</h1>{% endblock %}</header>
+    <div id="content">{% block content %}{% endblock %}</div>
+    <footer>{% block footer %}{% endblock %}</footer>
+</body>
+</html>

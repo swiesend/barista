@@ -1,0 +1,33 @@
+@font-face { font-family: header; src: url('../font/master_of_break.otf'); }
+@font-face { font-family: content; src: url('../font/gunny_rewritten.ttf'); }
+
+input, select {
+  font-family: content;
+  font-size: 0.9em;
+}
+
+body {
+  background: url(../img/wov.png) repeat top left;
+  text-align: center;
+  margin-left:0;
+  font-family: content;
+  font-size: 1.6em;
+}
+
+header {
+  width:100%;
+  height:5em;
+  position: absolute;
+  top:0;
+  left:0;
+  font-family: header;
+  background-color: rgba(255, 140, 2, 0.5);
+}
+
+#content {
+  margin-top:8em;
+}
+
+.info {
+  height: 2em;
+}

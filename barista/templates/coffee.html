@@ -1,6 +1,11 @@
-
-{{order}}
+{% extends "base.html" %}
+{% block title %}Coffee{% endblock %}
+{% block content %}
+<div class="info">
+  {{order}}
+</div>
 <br>
 <form action="/">
   <input type="submit" value="back">
 </form>
+{% endblock %}
