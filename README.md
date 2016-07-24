@@ -2,6 +2,8 @@
 
 This is the famous Barista service.
 
+![barista](barista/static/img/barista.png)
+
 You can order:
 
 |Coffee|Price\*|
