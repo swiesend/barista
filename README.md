@@ -20,19 +20,19 @@ You can order:
 Learning about docker and jenkins by running state-less webservers. This example application was crafted for learning purpose as part of a lecture about continuous integration (CI) and delivery (CD) at the Cologne University of Applied Sciences (TH Köln).
 
 # Getting Started
-This is an example webserver with docker, python3 and flask.
+This is an example webserver written in python3 with flask. With docker you can run this application in any environment, where docker can be installed. You even do not have to care about downloading any dependencies for the project, because docker will care about this for you.
 
 **install** git and docker, if you don't have it yet:
 
-git
+*git*
 
     https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
     
-or even a fancy git tool with a GUI
+or even a fancy git GUI
 
     https://git-scm.com/downloads/guis
     
-docker
+*docker*
 
     https://docs.docker.com/linux/step_one/
 
