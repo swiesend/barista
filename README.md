@@ -28,7 +28,7 @@ This is an example webserver written in python3 with flask. With docker you can 
 
     https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
     
-or even a fancy git GUI
+or a fancy git GUI
 
     https://git-scm.com/downloads/guis
     
@@ -73,7 +73,7 @@ ok, let's setup a hook:
 * go to the repository `Settings`
 * click `Webhooks & services` on the left
 * click `Add service` button
-* type `Jenkins (GitHub plugin)``
+* type `Jenkins (GitHub plugin)`
 * enter the following url to Jenkins hook url
 
     http://78.46.74.23:8080/github-webhook/
