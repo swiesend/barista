@@ -22,11 +22,18 @@ This is an example webserver with docker, python3 and flask.
 
 **install** git and docker, if you don't have it yet:
 
-docker
-    https://docs.docker.com/linux/step_one/
-    
 git
+
     https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+    
+or even a fancy git tool with a GUI
+
+    https://git-scm.com/downloads/guis
+    
+docker
+
+    https://docs.docker.com/linux/step_one/
+
 
 **build** a docker image of the webserver:
 
