@@ -20,9 +20,13 @@ Learning about docker and jenkins by running state-less webservers. This example
 # Getting Started
 This is an example webserver with docker, python3 and flask.
 
-**install** docker, if you don't have it yet:
+**install** git and docker, if you don't have it yet:
 
+docker
     https://docs.docker.com/linux/step_one/
+    
+git
+    https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 **build** a docker image of the webserver:
 
@@ -30,10 +34,6 @@ This is an example webserver with docker, python3 and flask.
     cd barista
     docker build -t barista .
     
-NOTICE: you need git on your machine.
-
-    https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-
 **run** it in a docker container (e.g. on port 5000):
 
     docker run -d -p 5000:5000 barista
