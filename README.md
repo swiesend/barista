@@ -62,7 +62,7 @@ https://realpython.com/blog/python/dockerizing-flask-with-compose-and-machine-fr
 
 # Issues
 
-This example issues are here for training purpose. As this application
+This example issues are here for training with jenkins.
 
 ## [todo] Setup a post-receive hook for Jenkins with GitHub plugin
 
