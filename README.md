@@ -4,40 +4,43 @@ This is the famous Barista service.
 
 You can order:
 
-|Coffee|Price*|
+|Coffee|Price\*|
 |----|----|
 |Americano|1.50€
 |Cappuccino|2.00€
 |Espresso|1.30€
-|Latte Macchiato|2.20€
+|~~Latte Macchiato~~|2.20€
 |Moccaccino|2.30€
 
-* prices change according to their preparation process
+\* prices change according to their preparation process
+
+# About
+Learning about docker and jenkins by running state-less webservers. This example application was crafted for learning purpose as part of a lecture about continuous integration (CI) and delivery (CD) at the Cologne University of Applied Sciences (TH Köln).
 
 # Getting Started
-This is an example flask webserver with docker and python3.
-
-
+This is an example webserver with docker, python3 and flask.
 
 **install** docker, if you don't have it yet:
 
     https://docs.docker.com/linux/step_one/
 
-**build** a docker image, which will contain the whole webserver:
+**build** a docker image, which will contain the webserver:
 
     git clone https://github.com/swiesend/barista barista
     cd barista
     docker build -t barista .
 
-**run** it in a docker container on port 5000:
+**run** it in a docker container (e.g. on port 5000):
 
     docker run -d -p 5000:5000 barista
 
-**use** use the app in your favorite browser:
+**use** the app in your favorite browser and play around:
 
     http://localhost:5000
 
 # Configuration
+
+*NOTICE:*
 
     This webserver configuration is not for production use!
 
@@ -47,6 +50,8 @@ https://realpython.com/blog/python/dockerizing-flask-with-compose-and-machine-fr
 
 
 # Issues
+
+This example issues are here for training purpose. As this application
 
 ## [todo] Setup a post-receive hook for Jenkins with GitHub plugin
 
