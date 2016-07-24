@@ -7,7 +7,7 @@ class Coffee(object):
 COFFEES = [Coffee('Americano', 1.50),
            Coffee('Cappuccino', 2.00),
            Coffee('Espresso', 1.30),
-           Coffee('Latte Macchiato', 2.20),
+           # Coffee('Latte Macchiato', 2.20),
            Coffee('Moccaccino', 2.30),]
 
 
