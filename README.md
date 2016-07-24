@@ -24,11 +24,15 @@ This is an example webserver with docker, python3 and flask.
 
     https://docs.docker.com/linux/step_one/
 
-**build** a docker image, which will contain the webserver:
+**build** a docker image of the webserver:
 
     git clone https://github.com/swiesend/barista barista
     cd barista
     docker build -t barista .
+    
+NOTICE: you need git on your machine.
+
+    https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 **run** it in a docker container (e.g. on port 5000):
 
