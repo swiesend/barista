@@ -53,9 +53,7 @@ or a fancy git GUI
 
 # Configuration
 
-*NOTICE:*
-
-    This webserver configuration is not for production use!
+    NOTE: This webserver configuration is not for production use!
 
 For production use a configuration which might be more like this:
 
