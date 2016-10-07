@@ -39,7 +39,7 @@ or a fancy git GUI
 
 **build** a docker image of the webserver:
 
-    git clone https://github.com/swiesend/barista barista
+    git clone https://github.com/swiesend/barista
     cd barista
     docker build -t barista .
     
