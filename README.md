@@ -74,7 +74,7 @@ ok, let's setup a hook:
 * type `Jenkins (GitHub plugin)`
 * enter the following url to Jenkins hook url
 
-    http://78.46.74.23:8080/github-webhook/
+    http://1.2.3.4:8080/github-webhook/
 
 
 you should see something like this as response on the top:
